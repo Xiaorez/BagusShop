@@ -53,9 +53,6 @@ function AdminDashboard() {
               <p className="text-sm text-slate-500">Total Products</p>
               <h2 className="mt-3 text-3xl font-bold text-slate-800">8</h2>
             </div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-100 text-2xl">
-              📦
-            </div>
           </div>
           <p className="mt-4 text-sm text-blue-600">Produk toko</p>
         </div>
@@ -65,9 +62,6 @@ function AdminDashboard() {
             <div>
               <p className="text-sm text-slate-500">Total Orders</p>
               <h2 className="mt-3 text-3xl font-bold text-slate-800">{orders.length}</h2>
-            </div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-purple-100 text-2xl">
-              🛒
             </div>
           </div>
           <p className="mt-4 text-sm text-purple-600">Seluruh pesanan</p>
@@ -79,9 +73,6 @@ function AdminDashboard() {
               <p className="text-sm text-slate-500">Pending Orders</p>
               <h2 className="mt-3 text-3xl font-bold text-slate-800">{pendingOrders}</h2>
             </div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-yellow-100 text-2xl">
-              ⏳
-            </div>
           </div>
           <p className="mt-4 text-sm text-yellow-600">Menunggu proses</p>
         </div>
@@ -91,9 +82,6 @@ function AdminDashboard() {
             <div>
               <p className="text-sm text-slate-500">Completed Orders</p>
               <h2 className="mt-3 text-3xl font-bold text-slate-800">{completedOrders}</h2>
-            </div>
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-green-100 text-2xl">
-              ✅
             </div>
           </div>
           <p className="mt-4 text-sm text-green-600">Pesanan selesai</p>
